@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/assets1/css/bootstrap.min.css}"  rel="stylesheet" />
+    <link th:href="@{/assets1/css/paper-kit.css}"  rel="stylesheet"/>
+    <link th:href="@{/assets1/css/demo.css}"  rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link th:href="@{/assets1/css/nucleo-icons.css}" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body >
+<nav th:replace="fragment/index/navbar :: navbar"></nav>
+
+<!--HEADER-->
+<div class="cd-section" id="headers">
+    <div class="header-1">
+        <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute">
+            <div class="container">
+                <a class="navbar-brand mb-0" href="www.creative-tim.com">Creative Tim</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                    <span class="navbar-toggler-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <a href="#paper-kit" class="btn btn-link btn-neutral">Components</a>
+                        <a href="#paper-kit" class="btn btn-link btn-neutral">Tutorial</a>
+                        <a href="#paper-kit" target="_blank" class="btn btn-link btn-neutral"><i class="fa fa-twitter"></i></a>
+                        <a href="#paper-kit" target="_blank" class="btn btn-link btn-neutral"><i class="fa fa-facebook"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="page-header" style="background-image: url('https://images.unsplash.com/photo-1486310662856-32058c639c65?dpr=2&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=');">
+            <div class="filter"></div>
+            <div class="content-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="iframe-container">
+                                <iframe src="https://www.youtube.com/embed/RcmrbNRK-jY?modestbranding=1&autohide=1&showinfo=0" frameborder="0" allowfullscreen height="250"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6  ml-auto">
+                            <h2 class="title">Travel with us</h2>
+                            <h5 class="description">There's no doubt that Tesla is delighted with the interest, but the data also raises a few questions. How long will it take for Tesla to fulfill all those extra orders?</h5>
+                            <br />
+                            <a href="https://www.youtube.com/watch?v=RcmrbNRK-jY" target="_blank" class="btn btn-danger">
+                                <i class="nc-icon nc-cart-simple"></i> Order Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--Feature -->
+<div class="features-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 class="title">Tại sao nên đặt tour tại TourTravel?</h2>
+                <h5 class="description">Tour du lịch trong nước của TourTravel đưa bạn đến các điểm tham quan thú vị trải dài tên khắp đất nước Việt Nam.
+                    Cùng với đội ngũ nhân viên nhiệt tình, giàu kinh nghiệm, chúng tôi cung cấp các chương trình tour đa dạng,
+                    phong phú, khởi hành hàng ngày đáp ứng đầy đủ nhu cầu của quý khách hàng với mức giá cạnh tranh nhất.</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-danger">
+                        <i class="nc-icon nc-palette"></i>
+                    </div>
+                    <div class="description">
+                        <h4 class="info-title">Đặt Tour nhanh chóng</h4>
+                        <p class="description">Spend your time generating new ideas. You don't have to think of
+                            implementing.</p>
+                        <a href="#pkp" class="btn btn-link btn-danger">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-danger">
+                        <i class="nc-icon nc-bulb-63"></i>
+                    </div>
+                    <div class="description">
+                        <h4 class="info-title">Chi phí rẻ</h4>
+                        <p>Larger, yet dramatically thinner. More powerful, but remarkably power efficient.</p>
+                        <a href="#pkp" class="btn btn-link btn-danger">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-danger">
+                        <i class="nc-icon nc-chart-bar-32"></i>
+                    </div>
+                    <div class="description">
+                        <h4 class="info-title">Dịch vụ Chất lượng</h4>
+                        <p>Choose from a veriety of many colors resembling sugar paper pastels.</p>
+                        <a href="#pkp" class="btn btn-link btn-danger">See more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="info">
+                    <div class="icon icon-danger">
+                        <i class="nc-icon nc-sun-fog-29"></i>
+                    </div>
+                    <div class="description">
+                        <h4 class="info-title">Trải nghiệm Tuyệt vời</h4>
+                        <p>Find unique and handmade delightful designs related items directly from our sellers.
+                        </p>
+                        <a href="#pkp" class="btn btn-link btn-danger">See more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Feature-->
+
+
+<!--Blog-tour-->
+<div class="blog-2 section section-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 ml-auto mr-auto">
+                <h2 class="title">Latest Blogposts 2</h2>
+                <br />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="#pablo">
+                                    <img class="img img-raised" src="assets/img/sections/miguel-perales.jpg" />
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-category text-info">Enterprise</h6>
+                                <h5 class="card-title">
+                                    <a href="#pablo">LinkedIn’s new desktop app arrives</a>
+                                </h5>
+                                <p class="card-description">
+                                    LinkedIn is today launching its official desktop application for Windows 10,
+                                    allowing the professional social networking service to... <br />
+                                </p>
+                                <hr>
+                                <div class="card-footer">
+                                    <div class="author">
+                                        <a href="#pablo">
+                                            <img src="assets/img/faces/ayo-ogunseinde-2.jpg" alt="..."
+                                                 class="avatar img-raised">
+                                            <span>Mike John</span>
+                                        </a>
+                                    </div>
+                                    <div class="stats">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i> 5 min read
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="#pablo">
+                                    <img class="img img-raised" src="assets/img/sections/roger-keller.jpg" />
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-category text-success">
+                                    Startups
+                                </h6>
+                                <h5 class="card-title">
+                                    <a href="#pablo">MIT’s Cheetah 3 robot is built to save lives</a>
+                                </h5>
+                                <p class="card-description">
+                                    The latest version of MIT’s Cheetah robot made its stage debut today at TC
+                                    Sessions: Robotics in Cambridge, Mass. It’s a familiar project... <br />
+                                </p>
+                                <hr>
+                                <div class="card-footer">
+                                    <div class="author">
+                                        <a href="#pablo">
+                                            <img src="assets/img/faces/kaci-baum-2.jpg" alt="..."
+                                                 class="avatar img-raised">
+                                            <span>Nickie Kelly</span>
+                                        </a>
+                                    </div>
+                                    <div class="stats">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i> 5 min read
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card card-blog">
+                            <div class="card-image">
+                                <a href="#pablo">
+                                    <img class="img img-raised" src="assets/img/sections/joshua-earlesz.jpg" />
+                                </a>
+                            </div>
+
+                            <div class="card-body">
+                                <h6 class="card-category text-danger">
+                                    <i class="fa fa-free-code-camp" aria-hidden="true"></i> Enterprise
+                                </h6>
+                                <h5 class="card-title">
+                                    <a href="#pablo">Lionel Richie says “Hello” to startup investors</a>
+                                </h5>
+                                <p class="card-description">
+                                    Because developing a doctor-on-demand service that would allow personalized
+                                    medical visits, booked through an app on a user’s phone is... <br />
+                                </p>
+                                <hr>
+                                <div class="card-footer">
+                                    <div class="author">
+                                        <a href="#pablo">
+                                            <img src="assets/img/faces/erik-lucatero-2.jpg" alt="..."
+                                                 class="avatar img-raised">
+                                            <span>Mike John</span>
+                                        </a>
+                                    </div>
+                                    <div class="stats">
+                                        <i class="fa fa-clock-o" aria-hidden="true"></i> 5 min read
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Blog-tour-->
+
+
+<footer th:replace="fragment/index/footer :: footer"></footer>
+
+
+
+<!-- Latest compiled JavaScript -->
+<!-- Latest compiled JavaScript -->
+<script th:src="@{/index/assets/js/jquery-3.2.1.min.js}" type="text/javascript"></script>
+<script th:src="@{/index/assets/js/jquery-ui-1.12.1.custom.min.js}" type="text/javascript"></script>
+<script th:src="@{/index/assets/js/popper.js}" type="text/javascript"></script>
+<script th:src="@{/index/assets/js/bootstrap.min.js}" type="text/javascript"></script>
+
+
+
+<!-- Switches -->
+<script th:src="@{/index/assets/js/bootstrap-switch.min.js}"></script>
+
+<!--  Plugins for Slider -->
+<script th:src="@{/index/assets/js/nouislider.js}"></script>
+
+<!--  Photoswipe files -->
+<script th:src="@{/index/assets/js/photo_swipe/photoswipe.min.js}"></script>
+<script th:src="@{/index/assets/js/photo_swipe/photoswipe-ui-default.min.js}"></script>
+<script th:src="@{/index/assets/js/photo_swipe/init-gallery.js}"></script>
+
+<!--  Plugins for Select -->
+<script th:src="@{/index/assets/js/bootstrap-select.js}"></script>
+
+<!--  for fileupload -->
+<script th:src="@{/index/assets/js/jasny-bootstrap.min.js}"></script>
+
+<!--  Plugins for Tags -->
+<script th:src="@{/index/assets/js/bootstrap-tagsinput.js}"></script>
+
+<!--  Plugins for DateTimePicker -->
+<script th:src="@{/index/assets/js/moment.min.js}"></script>
+<script th:src="@{/index/assets/js/bootstrap-datetimepicker.min.js}"></script>
+
+<script th:src="@{/index/assets/js/paper-kit.js?v=2.1.0}"></script>
+
+</body>
+
+
+
+</html>

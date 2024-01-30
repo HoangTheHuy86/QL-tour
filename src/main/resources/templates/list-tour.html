@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/index/assets/css/bootstrap.min.css}"  rel="stylesheet" />
+    <link th:href="@{/index/assets/css/paper-kit.css}"  rel="stylesheet"/>
+    <link th:href="@{/index/assets/css/demo.css}"  rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link th:href="@{/index/assets/css/nucleo-icons.css}" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+<nav th:replace="fragment/index/navbar :: navbar"></nav>
+
+<!--list-tour-->
+<div class="projects-3" id="projects-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <div class="space-top"></div>
+                <h6 class="category">Our work</h6>
+                <h2 class="title">Some of Our Awesome Projects - 3</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-profile card-plain">
+                    <div class="card-img-top">
+                        <a href="http://www.creative-tim.com/product/paper-kit">
+                            <img class="img" th:src="@{assets/img/sections/angelo-pantazis.jpg}" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-category">Productivity tools</h6>
+                        <h4 class="card-title">Beautiful Desktop for Designers</h4>
+                        <p class="card-description">
+                            As this technology matures it will be cool to see what hackers are able to do with
+                            it.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 ">
+                <div class="card card-profile card-plain">
+                    <div class="card-img-top">
+                        <a href="http://www.creative-tim.com/product/paper-kit">
+                            <img class="img" th:src="@{assets/img/sections/patrick-tomasso.jpg}" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-category">Web Design</h6>
+                        <h4 class="card-title">Famous Website Redesign Implementation</h4>
+                        <p class="card-description">
+                            Streaming services once again top the list of this year’s Emmy nominations
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-profile card-plain">
+                    <div class="card-img-top">
+                        <a href="http://www.creative-tim.com/product/paper-kit">
+                            <img class="img" th:src="@{assets/img/sections/luke-chesser.jpg}" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-category">Marketing tools</h6>
+                        <h4 class="card-title">The Best Productivity Applications</h4>
+                        <p class="card-description">
+                            Dietary supplements don’t need approval from the Food and Drug Administration.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-profile card-plain">
+                    <div class="card-img-top">
+                        <a href="http://www.creative-tim.com/product/paper-kit">
+                            <img class="img" src="assets/img/sections/rawpixel-coms.jpg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-category">Website</h6>
+                        <h4 class="card-title">Behance Redesign</h4>
+                        <p class="card-description">
+                            The HDR rollout is being enabled via support from two major studio partners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card card-profile card-plain">
+                    <div class="card-img-top">
+                        <a href="http://www.creative-tim.com/product/paper-kit">
+                            <img class="img" src="assets/img/sections/patrick-tomasso.jpg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-category">Android App</h6>
+                        <h4 class="card-title">Analytics for Android</h4>
+                        <p class="card-description">
+                            Google did not offer an estimate as to when HDR support reaches its other global
+                            markets.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="card card-profile card-plain">
+                    <div class="card-img-top">
+                        <a href="http://www.creative-tim.com/product/paper-kit">
+                            <img class="img" src="assets/img/sections/rawpixel-coms.jpg" />
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-category">Material</h6>
+                        <h4 class="card-title">How to find the contacts.</h4>
+                        <p class="card-description">
+                            Boom, the invitations start flying and Brella makes it easy to accept/decline
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--list-tour-->
+
+<footer th:replace="fragment/index/footer :: footer"></footer>
+</body>
+</html>

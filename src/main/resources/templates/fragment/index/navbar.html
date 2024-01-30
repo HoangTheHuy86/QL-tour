@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>Tour</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top nav-down" th:fragment="navbar">
+    <div class="container">
+        <div class="navbar-translate">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="presentation.html">TourTravel</a>
+            </div>
+            <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse"
+                    data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+                <span class="navbar-toggler-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/tour/index/home" data-scroll="true">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tour/index/list-tour" data-scroll="true" >Tour</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/tour/index/search-tour" data-scroll="true"
+                       >Search Tour</a>
+                </li>
+                <!--<li class="nav-item dropdown">-->
+                    <!--<a class="nav-link dropdown-toggle" th:href="@{#}"-->
+                       <!--data-toggle="dropdown">SearchTour</a>-->
+                    <!--<ul class="dropdown-menu dropdown-menu-right dropdown-danger">-->
+                        <!--<a class="dropdown-item" href="sections.html#headers"><i-->
+                                <!--class="nc-icon nc-tile-56"></i>&nbsp; Headers</a>-->
+                        <!--<a class="dropdown-item" href="sections.html#features"><i-->
+                                <!--class="nc-icon nc-settings"></i>&nbsp; Features</a>-->
+                        <!--<a class="dropdown-item" href="sections.html#blogs"><i-->
+                                <!--class="nc-icon nc-bullet-list-67"></i>&nbsp; Blogs</a>-->
+                        <!--<a class="dropdown-item" href="sections.html#teams"><i-->
+                                <!--class="nc-icon nc-single-02"></i>&nbsp; Teams</a>-->
+                        <!--<a class="dropdown-item" href="sections.html#projects"><i-->
+                                <!--class="nc-icon nc-calendar-60"></i>&nbsp; Projects</a>-->
+                        <!--<a class="dropdown-item" href="sections.html#pricing"><i-->
+                                <!--class="nc-icon nc-money-coins"></i>&nbsp; Pricing</a>-->
+                        <!--<a class="dropdown-item" href="sections.html#testimonials"><i-->
+                                <!--class="nc-icon nc-badge"></i>&nbsp; Testimonials</a>-->
+                        <!--<a class="dropdown-item" href="sections.html#contact-us"><i-->
+                                <!--class="nc-icon nc-mobile"></i>&nbsp; Contacts</a>-->
+                    <!--</ul>-->
+                <!--</li>-->
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact" data-scroll="true"
+                      >Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-round btn-danger" href="https://www.creative-tim.com/product/paper-kit-2-pro">
+                        <i class="nc-icon nc-cart-simple"></i> Buy now
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-round btn-danger" th:href="@{/locationAdmin/admin-location}">
+                        Admin
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
